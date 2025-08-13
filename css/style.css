@@ -64,9 +64,7 @@ header .container{
     margin-right: 135px
 }
 .banner{
-    background-image: url("../images/image-bg.svg");
-    background-repeat: no-repeat;
-
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.85) 0%, rgba(253, 253, 253, 0.85) ), url("../images/image-bg.svg") center no-repeat;
 }
 
 section .banner__section{
