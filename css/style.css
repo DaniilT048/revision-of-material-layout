@@ -92,7 +92,7 @@ section .banner__section{
 
 .banner__separator{
     width: 153px;
-    border: 1px solid #04193E;
+    border-bottom: 1px solid #04193E;
     margin-bottom: 20px;
 }
 
@@ -145,7 +145,7 @@ section .social__section{
 
 .social__separator{
     width: 164px;
-    border: 1px solid #04193E;
+    border-bottom: 1px solid #04193E;
     margin-bottom: 20px;
 }
 
@@ -159,4 +159,63 @@ section .social__section{
 
 .social__images-item{
     margin-right: 20px;
+}
+
+.article__section{
+    margin: 80px 0;
+}
+
+.article__title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.article__separator{
+    border-bottom: 1px solid #04193E;
+    width: 170px;
+    margin: 0 auto 20px;
+}
+
+.article__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 77px;
+}
+
+.article__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__card-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.info__card-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+}
+
+.article__info-card{
+    margin-right: 27px;
+}
+
+.info__card-image{
+    gap: 20px;
 }
