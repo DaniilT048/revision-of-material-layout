@@ -289,13 +289,25 @@ section .social__section {
 
 .gallery{
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .gallery__wrapper{
+    justify-content: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0;
 }
+
+.wrapper-img-3{
+    grid-row: span 2 / span 2;
+}
+
+.wrapper-img-7{
+    grid-column-start: 4;
+}
+
 
 @media (max-width: 1080px) {
     .banner__image{
