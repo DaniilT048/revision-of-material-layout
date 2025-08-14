@@ -298,19 +298,41 @@ section .social__section {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 0;
+    margin: 0;
 }
 
 .wrapper-img-3{
     grid-row: span 2 / span 2;
+    max-width: 360px;
 }
-
+.wrapper-img{
+    max-width: 360px;
+}
 .wrapper-img-7{
     grid-column-start: 4;
+    max-width: 360px;
 }
 
 
-@media (max-width: 1080px) {
+@media (max-width: 1040px) {
     .banner__image{
-        display: none;
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 1439px){
+    .wrapper-img-3{
+        max-width: 255px;
+    }
+
+    .wrapper-img{
+        max-width: 255px;
+    }
+
+    .wrapper-img-7{
+        max-width: 255px;
+    }
+    .gallery{
+        max-width: 1020px;
     }
 }
