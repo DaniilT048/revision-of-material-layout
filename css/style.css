@@ -7,11 +7,11 @@
 
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -38,49 +38,53 @@ header {
     text-transform: uppercase;
 }
 
-header .container{
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__menu{
+.header__menu {
     display: flex;
 }
 
-.header__menu-item{
+.header__menu-item {
     list-style: none;
     margin-right: 18px;
 }
 
-.header__menu-link{
+.header__menu-link {
     font-weight: 600;
     line-height: 16px;
     color: #FFFFFF;
     font-size: 14px;
 }
 
-.header__menu-item:last-child{
+.header__menu-item:last-child {
     margin-right: 135px
 }
-.banner{
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.85) 0%, rgba(253, 253, 253, 0.85) ), url("../images/image-bg.svg") center no-repeat;
+
+.banner {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.85) 0%, rgba(253, 253, 253, 0.85)), url("../images/image-bg.svg") center no-repeat;
+    background-size: cover;
+
 }
 
-section .banner__section{
+section .banner__section {
     padding-top: 90px;
     padding-bottom: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
-.banner__image{
+.banner__image {
     max-width: 524px;
     border-radius: 50%;
 }
 
-.banner__info-title{
+.banner__info-title {
     font-weight: 700;
     color: #04193E;
     font-size: 48px;
@@ -90,13 +94,13 @@ section .banner__section{
     margin-bottom: 20px;
 }
 
-.banner__separator{
+.banner__separator {
     width: 153px;
     border-bottom: 1px solid #04193E;
     margin-bottom: 20px;
 }
 
-.banner__info-text{
+.banner__info-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -105,7 +109,7 @@ section .banner__section{
     margin-bottom: 40px;
 }
 
-.banner__info-button{
+.banner__info-button {
     font-weight: 600;
     color: #FFFFFF;
     font-size: 16px;
@@ -116,26 +120,26 @@ section .banner__section{
     padding: 18px 141px 18px 18px;
 }
 
-.banner__info-button:hover{
+.banner__info-button:hover {
     box-shadow: inset 0 0 20px 0 #FFFFFF;
 }
 
-.banner__info-button:active{
+.banner__info-button:active {
     background-color: #465878;
 }
 
-.social{
+.social {
     background-color: #F5F5F5;
 }
 
-section .social__section{
+section .social__section {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-.social__info-title{
+.social__info-title {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
@@ -143,13 +147,13 @@ section .social__section{
     margin-bottom: 20px;
 }
 
-.social__separator{
+.social__separator {
     width: 164px;
     border-bottom: 1px solid #04193E;
     margin-bottom: 20px;
 }
 
-.social__info-text{
+.social__info-text {
     font-weight: 400;
     color: #000000;
     font-size: 18px;
@@ -157,15 +161,15 @@ section .social__section{
     max-width: 520px;
 }
 
-.social__images-item{
+.social__images-item {
     margin-right: 20px;
 }
 
-.article__section{
+.article__section {
     margin: 80px 0;
 }
 
-.article__title{
+.article__title {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
@@ -174,13 +178,13 @@ section .social__section{
 
 }
 
-.article__separator{
+.article__separator {
     border-bottom: 1px solid #04193E;
     width: 170px;
     margin: 0 auto 20px;
 }
 
-.article__text{
+.article__text {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -189,13 +193,13 @@ section .social__section{
     margin-bottom: 77px;
 }
 
-.article__info{
+.article__info {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.info__card-title{
+.info__card-title {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -204,7 +208,7 @@ section .social__section{
     text-align: center;
 }
 
-.info__card-text{
+.info__card-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -212,10 +216,13 @@ section .social__section{
     text-align: center;
 }
 
-.article__info-card{
+.article__info-card {
     margin-right: 27px;
 }
 
-.info__card-image{
-    gap: 20px;
+.info__card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
 }
